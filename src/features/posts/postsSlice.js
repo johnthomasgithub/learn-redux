@@ -107,6 +107,7 @@ const postsSlice = createSlice({
           heart: 0,
           rocket: 0,
           coffee: 0,
+          
         };
         console.log(action.payload);
         state.posts.push(action.payload);
